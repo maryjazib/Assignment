@@ -1,0 +1,9 @@
+<!ELEMENT HN-stationary (Products+)>
+<!ELEMENT Products (Product-id,Product-name,Quantity,Price-per-unit,Price-per-dozen,stock)>
+<!ELEMENT Product-id (#PCDATA)>
+<!ELEMENT Product-name (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>
+<!ELEMENT Price-per-unit (#PCDATA)>
+<!ELEMENT Price-per-dozen (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
